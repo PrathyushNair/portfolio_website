@@ -1,7 +1,9 @@
 import React, { useContext } from "react";
 import Card from "../components/Card";
 import { ThemeContext } from "../themeProvider";
-
+import Card2 from "../components/Card2";
+import Card3 from "../components/Card3";
+import Card4 from "../components/Card4";
 const Projects = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -20,12 +22,12 @@ const Projects = () => {
         </h4>
         <div className="mt-8 flex justify-between items-stretch flex-wrap">
           <Card />
-          <Card />
-          <Card />
-          <Card />
-          <Card />
+         <Card2/>
+          <Card3/>
+          <Card4 />
+         
         </div>
-        <a
+        {/* <a
           href="hello"
           class=" w-32 flex items-center py-4 px-4 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mx-auto mt-4"
         >
@@ -42,7 +44,7 @@ const Projects = () => {
               clip-rule="evenodd"
             ></path>
           </svg>
-        </a>
+        </a> */}
       </div>
     </div>
   );

@@ -15,14 +15,14 @@ const Card = () => {
       <a href="hello">
         <img
           class="rounded-t-lg w-full"
-          src="https://miro.medium.com/max/1400/1*IQqgctCIQT4onpVVLvrHEA.png"
+          src="https://user-images.githubusercontent.com/102036593/161413179-6b197814-6604-4a5f-ab84-4c9a8f49dc60.jpg"
           alt=""
         />
       </a>
       <div class="p-5">
         <a href="helo">
           <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-            Clone of TrackingTime
+           Clone of Toymarche
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
@@ -53,7 +53,6 @@ const Card = () => {
         >
           Netlify
           <svg
-          
             class="ml-2 -mr-1 w-4 h-4"
             fill="currentColor"
             viewBox="0 0 20 20"
