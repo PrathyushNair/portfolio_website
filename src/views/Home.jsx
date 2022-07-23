@@ -29,16 +29,16 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Hi, I am Prathyush
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
                     "Front End Developer",
                     1000,
-                    "Full Stack Developer",
+                    "Backend Enthusiast",
                     1000,
-                    "Mobile Developer",
+                    "Badminton Lover",
                     1000,
                   ]}
                   loop={Infinity}
@@ -52,8 +52,9 @@ const Home = () => {
                   : "mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              I am an aspiring Front-End /Full stack Developer. I am studying at Masai 
+              School to achieve my dream of becoming a Web Developer.
+             
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
