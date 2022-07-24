@@ -26,8 +26,12 @@ const Card = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        Clone of trackingtime.com. 
+        Tracking time is a time tracking software that helps businesses manage their projects and improve productivity.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Tech stack: MongoDB , Express, React, Redux, Node JS.
+       
         </p>
         <a style={{marginRight:"3%"}}
           href="hello"

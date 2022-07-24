@@ -26,8 +26,11 @@ const Card = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        Nordstrom Rack is an American off-price department store chain founded in 1973. It offers branded clothing and accessories for women, men, and kids at a large discount to consumers across the United States and Canada. 
+        They launched their website in February 2014
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+        Tech stack: HTML, CSS, JavaScript
         </p>
         <a style={{marginRight:"3%"}}
           href="hello"

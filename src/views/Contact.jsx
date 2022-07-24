@@ -114,6 +114,13 @@ const Contact = () => {
             >
               prathyu360@gmail.com
             </a>
+            <h1 className="text-3xl font-bold">Mobile</h1>
+            <a
+              href="hello"
+              className="mb-12 mt-4 font-semibold text-blue-700 block uppercase"
+            >
+              8369740382
+            </a>
             <h1 className="text-3xl  font-bold">Address</h1>
             <a
               href="hello"

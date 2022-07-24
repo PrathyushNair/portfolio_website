@@ -26,8 +26,10 @@ const Card = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        Modsens is an advanced platform that connects information to shoppers seamlessly for a secure and efficient experience — one that is wholly unique to their customers.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+       Tech stack: React, Redux, Chakra UI.
         </p>
         <a style={{marginRight:"3%"}}
           href="hello"

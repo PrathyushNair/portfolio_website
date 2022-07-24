@@ -26,8 +26,10 @@ const Card = () => {
           </h5>
         </a>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-          Here are the biggest enterprise technology acquisitions of 2021 so
-          far, in reverse chronological order.
+        Clone of toymarche.com, an online platform for selling and purchasing a wide variety of toys.
+        </p>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+       Tech stack: HTML, CSS, JavaScript.
         </p>
         <a style={{marginRight:"3%"}}
           href="hello"
