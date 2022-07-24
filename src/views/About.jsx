@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { techStack } from "../constants";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
-
+import styles from "./About.module.css"
 const About = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
@@ -24,8 +24,9 @@ const About = () => {
               A bit about me
             </h4>
             <img
-            style={{height:"10%",width:"10%"}}
-          class="rounded-t-lg w-full"
+            className={styles.myimage}
+            
+          // class="rounded-t-lg w-full"
           src="https://i.im.ge/2022/07/24/FDWls4.jpg"
           alt=""
           />
