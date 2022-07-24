@@ -26,6 +26,10 @@ const Navbar = () => {
       name: "Contact",
       route: "contact",
     },
+    // {
+    //   name: "Resume",
+    //   route: "https://chocolate-marita-59.tiiny.site",
+    // },
   ];
 
   function toggleTheme() {

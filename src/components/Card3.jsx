@@ -33,7 +33,8 @@ const Card = () => {
         Tech stack: HTML, CSS, JavaScript
         </p>
         <a style={{marginRight:"3%"}}
-          href="hello"
+        target="blank"
+          href="https://github.com/PrathyushNair/Nord_clone/"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           Github
@@ -51,7 +52,8 @@ const Card = () => {
           </svg>
         </a>
         <a
-          href="hello"
+        target="blank"
+          href="https://quiet-crepe-a6deeb.netlify.app/"
           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-blue-500 rounded-lg hover:bg-blue-200 focus:ring-4 focus:outline-none focus:ring-blue-300"
         >
           Netlify
