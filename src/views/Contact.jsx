@@ -30,74 +30,75 @@ const Contact = () => {
         </div>
         <div className="flex justify-between items-center md:items-stretch  flex-col md:flex-row pb-24">
           <div className="w-full md:pr-8">
-            <form>
-              <div class="my-6">
-                <label
-                  for="name"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
-                  Name
-                </label>
-                <input
-                  type="email"
-                  id="name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Enter your name"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  for="email"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
-                  Email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Enter your email"
-                  required
-                />
-              </div>
-              <div className="mb-4">
-                <label
-                  for="message"
-                  class={
-                    darkMode
-                      ? "block mb-2 text-lg font-medium text-gray-900"
-                      : "block mb-2 text-lg font-medium text-white"
-                  }
-                >
-                  Message
-                </label>
-                <textarea
-                  id="message"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  placeholder="Enter your message"
-                  required
-                />
-              </div>
-              <div className="flex justify-between ">
-                <div className="underline">
-                  <a href="mailto:prathyu360@gmail.com">
-                    Send me email directly
-                  </a>
-                </div>
+            { 
+              // <div class="my-6">
+              //   <label
+              //     for="name"
+              //     class={
+              //       darkMode
+              //         ? "block mb-2 text-lg font-medium text-gray-900"
+              //         : "block mb-2 text-lg font-medium text-white"
+              //     }
+              //   >
+              //     Name
+              //   </label>
+              //   <input
+              //     type="email"
+              //     id="name"
+              //     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              //     placeholder="Enter your name"
+              //     required
+              //   />
+              // </div>
+              // <div className="mb-4">
+              //   <label
+              //     for="email"
+              //     class={
+              //       darkMode
+              //         ? "block mb-2 text-lg font-medium text-gray-900"
+              //         : "block mb-2 text-lg font-medium text-white"
+              //     }
+              //   >
+              //     Email
+              //   </label>
+              //   <input
+              //     type="email"
+              //     id="email"
+              //     class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              //     placeholder="Enter your email"
+              //     required
+              //   />
+              // </div>
+              // <div className="mb-4">
+              //   <label
+              //     for="message"
+              //     class={
+              //       darkMode
+              //         ? "block mb-2 text-lg font-medium text-gray-900"
+              //         : "block mb-2 text-lg font-medium text-white"
+              //     }
+              //   >
+              //     Message
+              //   </label>
+              //   <textarea
+              //     id="message"
+              //     class="bg-gray-50 border border-gray-300 text-gray-900 h-28 w-full text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              //     placeholder="Enter your message"
+              //     required
+              //   />
+              // </div>
+              // <div className="flex justify-between ">
+              //   <div className="underline">
+              //     <a href="mailto:prathyu360@gmail.com">
+              //       Send me email directly
+              //     </a>
+              //   </div>
+               <form style={{marginTop:"5%"}}> 
                 <button className="bg-indigo-500 text-white px-4 py-2 w-40 rounded-md hover:bg-indigo-400">
-                  <a href="mailto:prathyu360@gmail.com">Submit</a>
+                  <a href="mailto:prathyu360@gmail.com">Send me an email</a>
                 </button>
-              </div>
-            </form>
+              {/* </div> */}
+            </form> }
           </div>
           <div className="w-full flex flex-col md:items-end  mt-12 md:mt-6">
             {/* <h1 className="text-3xl font-bold">Phone</h1>

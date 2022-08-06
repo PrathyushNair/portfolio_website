@@ -20,7 +20,7 @@ export const contactLinks = [
 // { name: 'Instagram', url: 'https://img.icons8.com/doodle/40/000000/instagram-new--v2.png', link: 'https://www.instagram.com/aakashsh1999/' },
 { name: 'Github', url: 'https://img.icons8.com/doodle/40/000000/github--v1.png', link :'https://github.com/PrathyushNair'},
 { name: 'LinkedIn', url: 'https://img.icons8.com/doodle/40/000000/linkedin--v2.png', link: 'https://linkedin.com/in/prathyush-nair'},
-{ name: 'LinkedIn', url: 'https://img.icons8.com/resume.png', link: "https://chocolate-marita-59.tiiny.site"}
+{ name: 'Resume', url: 'https://img.icons8.com/resume.png', link: "https://drive.google.com/file/d/1xdQbrBtSmqqkKzuC5AARmQRl-OSQXBTe/view?usp=sharing"}
 ]
 
 

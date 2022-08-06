@@ -30,7 +30,7 @@ const About = () => {
           src="https://i.im.ge/2022/07/24/FDWls4.jpg"
           alt=""
           />
-            <p
+            <p id={styles.aboutme}
               className={
                 darkMode
                   ? "mt-4 text-xl text-justify text-gray-500"
@@ -40,7 +40,7 @@ const About = () => {
               I'm an aspiring web developer with an aspiration to
               build new features from ideation to production,
               implementation of frameworks and design flows that enable user to have a seamless experience. I take into consideration
-              writing reusable and efficient code. I have been I
+              writing reusable and efficient code. I have been 
               passionately combining good design, technology, and innovation in
               all my projects.
             </p>
@@ -48,7 +48,7 @@ const About = () => {
           </motion.div>
           <motion.div
           >
-            <h4 className="mt-12 text-3xl font-semibold text-blue-500">
+            <h4 style={{marginTop:"10%"}} className="mt-12 text-3xl font-semibold text-blue-500">
               Skills
             </h4>
             {/* <p

@@ -5,6 +5,14 @@
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   
 }
+#aboutme
+{
+  width:60%;
+  margin-left:30%;
+
+  margin-top:-20%;
+  display:flex
+}
 @media (max-width:900px){
     .myimage
     {
@@ -12,4 +20,12 @@
       width:30%;
       
     }  
+    #aboutme
+    {
+      width:100%;
+      margin-left:0%;
+
+      margin-top:5%;
+      display:flex
+    }
 }
